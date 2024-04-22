@@ -1,0 +1,38 @@
+.faqAccordion .lucide.lucide-chevron-down {
+  display: none;
+}
+
+.faqAccordion {
+  transition: transform 300ms;
+}
+
+@keyframes rotate{
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
+/* .accordionTrigger[data-state='open'] > .plusIcon {
+  display: none;
+  animation: rotate 300ms forwards;
+}
+
+.accordionTrigger[data-state='open'] > svg.minusIcon {
+  display: block;
+}
+
+.accordionTrigger[data-state='closed'] > .plusIcon {
+  display: block;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease; 
+}
+
+.accordionTrigger[data-state='closed'] > svg.minusIcon {
+  display: none;
+} */
